@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "esm_project_template",
+  "version": "1.0.0",
+  "description": "esm形式での開発テンプレート",
+  "main": "index.js",
+  "scripts": {
+    "prerun": "tsc",
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "ym.u.ichiro@gmail.com",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9"
+  }
+}
